@@ -65,12 +65,12 @@ nav {
 .section{
     width:100%;
     height: 40px;
-    border-right: 1px solid black;
+    border-right: 1px solid ;
     margin: 0;
     padding-top: 10px;
     background-image: linear-gradient(#7c7c7c, #383838);
     align-self: center;
-    border-radius: 5%;
+    border-radius: 4%;
 }
 
 .section:first-child{
@@ -99,12 +99,33 @@ nav {
 }
 
 .nav-search{
-    
+   position: relative; 
 }
 .section input{
-    width: 40%;
+    width: 90%; 
+    height: 50%;
+    background-image:linear-gradient(#7c7c7c, #383838);
+    position: absolute;
+    right: 10px;
+    top:12px;
+    border: none;
+    border-radius: 100px;
 }
 
+.section input:active, textarea:focus{
+   outline: none;
+}
+
+.fa-search{
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top:18.5px;
+    left:10px;
+    z-index: 2;
+    
+        
+}
 .wraper h1{
     font-size: 50px;
     font-weight: 100;

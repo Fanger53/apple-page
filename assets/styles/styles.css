@@ -31,34 +31,9 @@ a:hover{
     background-size:cover;
   /*background-position:center center;*/
     background-position:center 101%;
-    position: relative;
-}
-/*nav::before, nav::after{
-    content: "";
-    display: table;
-}
-nav::after{
-    clear: both;
-}*/
-nav{
-    position: absolute;
-    top:20%;
-    
+    /*position: relative;*/
 }
 
-nav ul{
-    width: 80%;
-    border: 1px solid black;
-    list-style-type: none;
-}
-nav ul li{
-    
-    border: 1px solid red;
-    min-width:9%;
-    min-height:30px;
-    /*float: left;*/
-    text-align: center;  
-}
 .wraper{
     /*margin-top: 20%;*/
     height: 100%;
@@ -71,6 +46,51 @@ nav ul li{
     grid-template-rows: repeat(18,1fr);
     grid-template-columns: repeat(27,1fr);
 }
+
+/*nav*/
+nav{
+    border: none;
+    border-radius:2%;
+    background-color: dimgray;
+    max-width: 100%;
+    grid-column: 4 / 25;
+    grid-row: 5 / 7;  
+    max-height: 30px;
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: 1fr;
+    text-align: center;
+    
+}
+
+.section{
+    width:100%;
+    border-right: 1px solid black;
+    margin: auto;
+    background-image: linear-gradient(#7c7c7c, #383838);
+}
+
+.section span{
+    font-family: 'BDP-Clien-Regular';
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.section a:hover{
+    text-decoration: none; 
+}
+
+.section:hover{
+  background-image: linear-gradient(#383838, gray);
+    border-radius: 10%;
+}
+
+.nav-search{
+    
+}
+.section input{
+    width: 40%;
+}
+
 .wraper h1{
     font-size: 50px;
     font-weight: 100;

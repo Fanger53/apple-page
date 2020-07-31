@@ -25,7 +25,7 @@ a:hover{
 }
 
 #top-section {
-  height: 629px;
+  height: 49.256vw;
   background-image: url(../img/0.jpg);
   background-repeat: no-repeat;
   background-size:cover;
@@ -55,7 +55,7 @@ nav {
     max-width: 100%;
     grid-column: 4 / 25;
     grid-row: 5 / 7;  
-    max-height: 40px;
+    max-height: 2.741vw;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 1fr;
     
@@ -67,7 +67,7 @@ nav {
     height: 40px;
     border-right: 1px solid ;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 0.783vw;
     background-image: linear-gradient(#7c7c7c, #383838);
     align-self: center;
     border-radius: 4%;
@@ -85,8 +85,8 @@ nav {
 
 .section span{
     font-family: 'BDP-Clien-Regular';
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.940vw;
+    line-height: 1.410vw;
 }
 
 .section a:hover{
@@ -106,8 +106,8 @@ nav {
     height: 50%;
     background-image:linear-gradient(#7c7c7c, #383838);
     position: absolute;
-    right: 10px;
-    top:12px;
+    right: 0.783vw;
+    top:0.940vw;
     border: none;
     border-radius: 100px;
 }
@@ -119,31 +119,31 @@ nav {
 .fa-search{
     position: absolute;
     color: white;
-    font-size: 10px;
-    top:18.5px;
-    left:10px;
+    font-size: 0.783vw;
+    top:1.449vw;
+    left:0.783vw;
     z-index: 2;
     
         
 }
 .wraper h1{
-    font-size: 50px;
+    font-size: 3.915vw;
     font-weight: 100;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.016vw;
     grid-column: 8/ 21;
     grid-row: 8 / 21;
     
 }
 
 .wraper p{
-    font-size: 30px;
+    font-size: 2.349vw;
     grid-column: 6/ 24;
     grid-row: 10/18;
     
 }
 
 .wraper a{
-    font-size: 18px; 
+    font-size: 1.410vw; 
     vertical-align: middle;
     grid-column: 5/ 22;
     grid-row: 13/ 22;
@@ -162,7 +162,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0 2px;
+  margin: 0 0.157vw;
 }
 
 .one {
@@ -185,11 +185,11 @@ nav {
 
 #footer-section {
   width: 78%;
-  height: 90px;
+  height: 7.048vw;
  /* border: 2px solid black; */
   font-size: 0.7rem;
   font-family: 'Lucida Grande';
-  padding: 14px 0 0 0;
+  padding: 1.096vw 0 0 0;
 }
 
 .footer-a {
@@ -197,10 +197,10 @@ nav {
 }
 
 #footer-top {
-  height: 27px;
+  height: 0.877vw;
   display: grid;
   grid-template-columns: 50% 50%;
-  padding: 8px 0 ;
+  padding: 0.626vw 0 ;
 }
 
 .footer-list {
@@ -211,7 +211,7 @@ nav {
 
 .footer-list li {
   display: inline;
-  padding: 0 3px;
+  padding: 0 0.235vw;
   border-left: 1.5px solid rgb(207, 207, 207);
 }
 
@@ -221,8 +221,8 @@ nav {
 }
 
 #footer-bottom {
-  width: 440px;
-  height: 27px;
+  width: 34.456vw;
+  height: 2.114vw;
   display: grid;
   grid-template-columns: 60% 40%;
 }

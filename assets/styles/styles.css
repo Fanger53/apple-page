@@ -3,101 +3,97 @@
   padding: 0;
 }
 
-
-
-
-
-
-
-
-#top-section {
-  border: 2px solid green;
-  height: 540px;
-  background-image: url(../img/6.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+a{
+    color: inherit;
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:hover{
+    text-decoration: underline;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.grid{
+    display: grid;
+}
+
+#top-section {
+    height: 629px;
+    background-image: url(../img/0.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  /*background-position:center center;*/
+    background-position:center 101%;
+    position: relative;
+}
+/*nav::before, nav::after{
+    content: "";
+    display: table;
+}
+nav::after{
+    clear: both;
+}*/
+nav{
+    position: absolute;
+    top:20%;
+    
+}
+
+nav ul{
+    width: 80%;
+    border: 1px solid black;
+    list-style-type: none;
+}
+nav ul li{
+    
+    border: 1px solid red;
+    min-width:9%;
+    min-height:30px;
+    /*float: left;*/
+    text-align: center;  
+}
+.wraper{
+    /*margin-top: 20%;*/
+    height: 100%;
+    /*flex-direction: column;
+    justify-content: center;
+    align-content: center;*/
+    color: #fff;
+    text-align: center;
+    font-family:'Libre Franklin', sans-serif;;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(27,1fr);
+}
+.wraper h1{
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+    grid-column: 8/ 21;
+    grid-row: 8 / 21;
+    
+}
+
+.wraper p{
+    font-size: 30px;
+    grid-column: 6/ 24;
+    grid-row: 10/18;
+    
+}
+
+.wraper a{
+    font-size: 18px; 
+    vertical-align: middle;
+    grid-column: 5/ 22;
+    grid-row: 13/ 22;
+    
+}
 
 /* imgage section */
 
@@ -133,14 +129,15 @@
 /* footer */
 
 #footer-section {
-  width: 1020px;
+  width: 80%;
   height: 100px;
   border: 2px solid black;
   font-size: 0.8rem;
+  font-family: 'Lucida Grande';
 }
 
 .footer-a {
-  text-decoration: none;
+  
   color: #0088cc;
 }
 

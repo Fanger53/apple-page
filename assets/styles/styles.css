@@ -9,28 +9,28 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.center{
-    margin: 0 auto;
+.center {
+  margin: 0 auto;
 }
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 
 .grid{
-    display: grid;
+  display: grid;
 }
 
 #top-section {
-    height: 629px;
-    background-image: url(../img/0.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
+  height: 629px;
+  background-image: url(../img/0.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
   /*background-position:center center;*/
-    background-position:center 101%;
+  background-position:center 101%;
     /*position: relative;*/
 }
 
@@ -48,25 +48,28 @@ a:hover{
 }
 
 /*nav*/
-nav{
+nav {
     border: none;
-    border-radius:2%;
+    
     background-color: dimgray;
     max-width: 100%;
     grid-column: 4 / 25;
     grid-row: 5 / 7;  
-    max-height: 30px;
+    max-height: 40px;
     grid-template-columns: repeat(9,1fr);
     grid-template-rows: 1fr;
-    text-align: center;
+    
     
 }
 
 .section{
     width:100%;
+    height: 40px;
     border-right: 1px solid black;
-    margin: auto;
+    margin: 0;
+    padding-top: 10px;
     background-image: linear-gradient(#7c7c7c, #383838);
+    align-self: center;
 }
 
 .section span{

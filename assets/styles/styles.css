@@ -133,10 +133,12 @@
 /* footer */
 
 #footer-section {
-  width: 1020px;
-  height: 100px;
-  border: 2px solid black;
+  width: 1050px;
+  height: 90px;
+ /* border: 2px solid black; */
   font-size: 0.8rem;
+  margin: 0 auto;
+  padding: 14px 0 0 0;
 }
 
 .footer-a {
@@ -148,23 +150,24 @@
   height: 27px;
   display: grid;
   grid-template-columns: 50% 50%;
-  padding: 7px 0;
+  padding: 8px 0 ;
 }
 
 .footer-list {
   list-style: none;
   padding: 0 ;
+  position: relative;
 }
 
 .footer-list li {
   display: inline;
-  padding: 0 4px;
+  padding: 0 3px;
   border-left: 1.5px solid rgb(207, 207, 207);
 }
 
 #usa-img {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
 }
 
 #footer-bottom {
@@ -172,9 +175,4 @@
   height: 27px;
   display: grid;
   grid-template-columns: 60% 40%;
-  margin-top: 7px;
-}
-
-.ls-b {
-  
 }

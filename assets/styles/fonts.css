@@ -1,18 +1,19 @@
 @font-face {
-    font-family: 'Lucida Grande';
-    src: url('LucidaGrande.woff2') format('woff2'),
-        url('LucidaGrande.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Lucida Grande';
+  src:
+    url('LucidaGrande.woff2') format('woff2'),
+    url('LucidaGrande.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'BDP-Clien-Regular';
-    src:url('BDP-Clien-Regular.ttf.woff') format('woff'),
-        url('BDP-Clien-Regular.ttf.svg#BDP-Clien-Regular') format('svg'),
-        url('BDP-Clien-Regular.ttf.eot'),
-        url('BDP-Clien-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'BDP-Clien-Regular';
+  src:
+    url('BDP-Clien-Regular.ttf.woff') format('woff'),
+    url('BDP-Clien-Regular.ttf.svg#BDP-Clien-Regular') format('svg'),
+    url('BDP-Clien-Regular.ttf.eot'),
+    url('BDP-Clien-Regular.ttf.eot#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-

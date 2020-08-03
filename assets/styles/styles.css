@@ -207,11 +207,26 @@ label:focus-within .fa-search {
   color: #08c;
 }
 
+#footer-top::before,
+#footer-top::after {
+  content: "";
+  display: table;
+}
+
+#footer-top::after {
+  clear: both;
+}
+
 #footer-top {
-  height: 0.877vw;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 0.626vw 0;
+  clear: both;
+}
+
+#footer-top div {
+  display: inline-block;
+}
+
+.most-right {
+  float: right;
 }
 
 .footer-list {

@@ -180,6 +180,7 @@ label:focus-within .fa-search {
 
 .one {
   background-image: url(../img/1.jpg);
+  margin-left: 0;
 }
 
 .two {
@@ -192,6 +193,7 @@ label:focus-within .fa-search {
 
 .four {
   background-image: url(../img/4.jpg);
+  margin-right: 0;
 }
 
 /* footer */
